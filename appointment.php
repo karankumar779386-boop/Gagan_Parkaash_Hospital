@@ -4,13 +4,13 @@ include('includ/header.php')
 
 <!-- Make an Appointment -->
 
-<section class="container-fluid my-5 p-5  bg_clr_form">
-    <div class="container bg-white   p-5 ">
+<section class="container-fluid p-md-5 p-0  bg_clr_form">
+    <div class="container bg-white p-lg-5 px-2 ">
         <div class="row ">
-            <div class="col-xl-6 col-lg-6 col-12">
-                <div class="py-5 p-md-2">
-                    <h2 class="pb-4 p-sm-2 text-black">Make an Appointment</h2>
-                    <h4 class="pb-4 p-sm-2 text-secondary fs-5">Arrange a Call Back</h4>
+            <div class="col-xl-6 col-lg-6 col-12 mdl_ser_bg">
+                <div class="py- p-md-3  ">
+                    <h2 class="pb-4 p-sm-2">Make an Appointment</h2>
+                    <h4 class="pb-4 p-sm-2 fs-5">Arrange a Call Back</h4>
                     
                     <form action="xyz.php">
                         <div class="mb-4 ">
@@ -37,8 +37,8 @@ include('includ/header.php')
                     </form>
                 </div>
             </div>
-            <div class="col-xl-6 col-lg-6 col-12 d-flex align-items-center">
-                <div class="py-5 p-sm-2 ">
+            <div class="col-xl-6 col-lg-6 col-12 appointment_img d-flex align-items-center">
+                <div class=" p-md-5 pb-5 ">
                     <img class="img-fluid" src="images/appointment_care.png" alt="">
                 </div>
             </div>
@@ -53,7 +53,7 @@ include('includ/header.php')
 
 <section>
     <div class="container">
-        <div class="text-center py-5 cstm_satis">
+        <div class="text-center py-md-5 pb-5 cstm_satis">
             <h2 class=" text-center mb-3">We Provide the highest level of satisfaction care & services <br> to our patients.</h2>
             <a  class="text-decoration-none fs-3 text-black fw-bold" href="tel:+918054550024"><i class="text-primary fa-solid fa-phone"></i>+91 80545-50024</a>
         </div>

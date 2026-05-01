@@ -4,13 +4,13 @@ include('includ/header.php')
 
 <!-- Our Medical Services -->
 
-<section class="container-fulid my-5 mdl_ser_bg">
-  <div class="container pt-5">
-    <h2 class="fw-bold py-5 text-center"> Our Medical Services </h2>
+<section class="container-fulid gt- mdl_ser_bg cstm_p">
+  <div class="container  py-0">
+    <h2 class="fw-bold py-lg-3 pt-0 text-center"> Our Medical Services </h2>
     <div class="none_div">
       <div class="none_div1"></div>
     </div>
-    <div class="row my-5">
+    <div class="row mt-4">
       <div class="col-lg-3 col-md-6    mt-3 ">
         <div class="cstm_cols_div d-flex align-items-center justify-content-center flex-column py-3">
           <img class=" img-fluid " src="images/services/test_tube_baby.png" alt="image of medical servires">
@@ -124,8 +124,8 @@ include('includ/header.php')
 
 <!-- For any queries -->
  
-<section class="contanier-fulid bg_img_appointment">
-  <div class="container">
+<section class="contanier-fulid mb-5 bg_img_appointment">
+  <div class="container ">
     <div class="cstm_cont_appt d-flex flex-column justify-content-center align-items-center ">
       <h4>For any queries</h4>
       <h2>just make a Call and you're done!</h2>
